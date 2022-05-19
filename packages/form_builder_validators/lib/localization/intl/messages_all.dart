@@ -26,6 +26,7 @@ import 'messages_fa.dart' as messages_fa;
 import 'messages_fr.dart' as messages_fr;
 import 'messages_hu.dart' as messages_hu;
 import 'messages_id.dart' as messages_id;
+import 'messages_in.dart' as messages_in;
 import 'messages_it.dart' as messages_it;
 import 'messages_ja.dart' as messages_ja;
 import 'messages_ko.dart' as messages_ko;
@@ -39,7 +40,9 @@ import 'messages_ru.dart' as messages_ru;
 import 'messages_sk.dart' as messages_sk;
 import 'messages_sl.dart' as messages_sl;
 import 'messages_sw.dart' as messages_sw;
+import 'messages_th.dart' as messages_th;
 import 'messages_uk.dart' as messages_uk;
+import 'messages_vi.dart' as messages_vi;
 import 'messages_zh_Hans.dart' as messages_zh_hans;
 import 'messages_zh_Hant.dart' as messages_zh_hant;
 
@@ -56,6 +59,7 @@ Map<String, LibraryLoader> _deferredLibraries = {
   'fr': () => new Future.value(null),
   'hu': () => new Future.value(null),
   'id': () => new Future.value(null),
+  'in': () => new Future.value(null),
   'it': () => new Future.value(null),
   'ja': () => new Future.value(null),
   'ko': () => new Future.value(null),
@@ -69,7 +73,9 @@ Map<String, LibraryLoader> _deferredLibraries = {
   'sk': () => new Future.value(null),
   'sl': () => new Future.value(null),
   'sw': () => new Future.value(null),
+  'th': () => new Future.value(null),
   'uk': () => new Future.value(null),
+  'vi': () => new Future.value(null),
   'zh_Hans': () => new Future.value(null),
   'zh_Hant': () => new Future.value(null),
 };
@@ -98,6 +104,8 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_hu.messages;
     case 'id':
       return messages_id.messages;
+    case 'in':
+      return messages_in.messages;
     case 'it':
       return messages_it.messages;
     case 'ja':
@@ -124,8 +132,12 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_sl.messages;
     case 'sw':
       return messages_sw.messages;
+    case 'th':
+      return messages_th.messages;
     case 'uk':
       return messages_uk.messages;
+    case 'vi':
+      return messages_vi.messages;
     case 'zh_Hans':
       return messages_zh_hans.messages;
     case 'zh_Hant':

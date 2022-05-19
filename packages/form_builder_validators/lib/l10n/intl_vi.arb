@@ -1,0 +1,106 @@
+{
+  "@@last_modified": "2022-05-19T21:53:39.706877",
+  "@@locale": "vi",
+  "requiredErrorText": "Trường này không thể để trống.",
+  "@requiredErrorText": {
+    "description": "Văn bản Lỗi cho trường bắt buộc",
+    "type": "text",
+    "placeholders": {}
+  },
+  "minErrorText": "Giá trị phải lớn hơn hoặc bằng {min}.",
+  "@minErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "min": {}
+    }
+  },
+  "minLengthErrorText": "Giá trị phải có độ dài lớn hơn hoặc bằng {minLength}",
+  "@minLengthErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "minLength": {}
+    }
+  },
+  "maxErrorText": "Giá trị phải nhỏ hơn hoặc bằng {max}",
+  "@maxErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "max": {}
+    }
+  },
+  "maxLengthErrorText": "Giá trị phải có độ dài nhỏ hơn hoặc bằng {maxLength}",
+  "@maxLengthErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "maxLength": {}
+    }
+  },
+  "emailErrorText": "Trường này yêu cầu một địa chỉ email hợp lệ.",
+  "@emailErrorText": {
+    "description": "Error Text for email field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "integerErrorText": "Trường này yêu cầu một số nguyên hợp lệ.",
+  "@integerErrorText": {
+    "description": "Error Text for integer validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "equalErrorText": "Giá trị trường này phải bằng {value}.",
+  "@equalErrorText": {
+    "description": "Error Text for equal validator",
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "notEqualErrorText": "Giá trị trường này không được bằng {value}.",
+  "@notEqualErrorText": {
+    "description": "Error Text for not-equal validator",
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "urlErrorText": "Trường này yêu cầu địa chỉ URL hợp lệ.",
+  "@urlErrorText": {
+    "description": "Error Text for URL field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "matchErrorText": "Giá trị không khớp với mẫu.",
+  "@matchErrorText": {
+    "description": "Error Text for pattern field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "numericErrorText": "Giá trị phải là số.",
+  "@numericErrorText": {
+    "description": "Error Text for numeric field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "creditCardErrorText": "Trường này yêu cầu số thẻ tín dụng hợp lệ.",
+  "@creditCardErrorText": {
+    "description": "Error Text for credit card field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ipErrorText": "Trường này yêu cầu một IP hợp lệ.",
+  "@ipErrorText": {
+    "description": "Error Text for IP address field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "dateStringErrorText": "Trường này yêu cầu một chuỗi ngày hợp lệ.",
+  "@dateStringErrorText": {
+    "description": "Error Text for date string field",
+    "type": "text",
+    "placeholders": {}
+  }
+}

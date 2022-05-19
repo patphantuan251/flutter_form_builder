@@ -1,0 +1,106 @@
+{
+  "@@last_modified": "2022-05-19T21:53:39.706877",
+  "@@locale": "th",
+  "requiredErrorText": "ฟิลด์นี้ไม่สามารถเว้นว่างได้",
+  "@requiredErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "minErrorText": "ค่าต้องมากกว่าหรือเท่ากับ {min}",
+  "@minErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "min": {}
+    }
+  },
+  "minLengthErrorText": "ค่าต้องมีความยาวมากกว่าหรือเท่ากับ {minLength}",
+  "@minLengthErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "minLength": {}
+    }
+  },
+  "maxErrorText": "ค่าต้องน้อยกว่าหรือเท่ากับ {max}",
+  "@maxErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "max": {}
+    }
+  },
+  "maxLengthErrorText": "ค่าต้องมีความยาวน้อยกว่าหรือเท่ากับ {maxLength}",
+  "@maxLengthErrorText": {
+    "description": "Error Text for required field",
+    "type": "text",
+    "placeholders": {
+      "maxLength": {}
+    }
+  },
+  "emailErrorText": "ฟิลด์นี้ต้องใช้ที่อยู่อีเมลที่ถูกต้อง",
+  "@emailErrorText": {
+    "description": "Error Text for email field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "integerErrorText": "ฟิลด์นี้ต้องการจำนวนเต็มที่ถูกต้อง",
+  "@integerErrorText": {
+    "description": "Error Text for integer validator",
+    "type": "text",
+    "placeholders": {}
+  },
+  "equalErrorText": "ค่าฟิลด์นี้ต้องเท่ากับ {value}",
+  "@equalErrorText": {
+    "description": "Error Text for equal validator",
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "notEqualErrorText": "ค่าฟิลด์นี้ต้องไม่เท่ากับ {value}",
+  "@notEqualErrorText": {
+    "description": "Error Text for not-equal validator",
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "urlErrorText": "ช่องนี้ต้องการที่อยู่ URL ที่ถูกต้อง",
+  "@urlErrorText": {
+    "description": "Error Text for URL field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "matchErrorText": "ค่าไม่ตรงกับรูปแบบ",
+  "@matchErrorText": {
+    "description": "Error Text for pattern field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "numericErrorText": "ค่าต้องเป็นตัวเลข",
+  "@numericErrorText": {
+    "description": "Error Text for numeric field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "creditCardErrorText": "ช่องนี้ต้องใช้หมายเลขบัตรเครดิตที่ถูกต้อง",
+  "@creditCardErrorText": {
+    "description": "Error Text for credit card field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ipErrorText": "ฟิลด์นี้ต้องการ IP ที่ถูกต้อง",
+  "@ipErrorText": {
+    "description": "Error Text for IP address field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "dateStringErrorText": "ฟิลด์นี้ต้องการสตริงวันที่ที่ถูกต้อง",
+  "@dateStringErrorText": {
+    "description": "Error Text for date string field",
+    "type": "text",
+    "placeholders": {}
+  }
+}

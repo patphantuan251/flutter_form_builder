@@ -219,6 +219,7 @@ class AppLocalizationDelegate
       Locale.fromSubtags(languageCode: 'fr'),
       Locale.fromSubtags(languageCode: 'hu'),
       Locale.fromSubtags(languageCode: 'id'),
+      Locale.fromSubtags(languageCode: 'in'),
       Locale.fromSubtags(languageCode: 'it'),
       Locale.fromSubtags(languageCode: 'ja'),
       Locale.fromSubtags(languageCode: 'ko'),
@@ -232,7 +233,9 @@ class AppLocalizationDelegate
       Locale.fromSubtags(languageCode: 'sk'),
       Locale.fromSubtags(languageCode: 'sl'),
       Locale.fromSubtags(languageCode: 'sw'),
+      Locale.fromSubtags(languageCode: 'th'),
       Locale.fromSubtags(languageCode: 'uk'),
+      Locale.fromSubtags(languageCode: 'vi'),
       Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
       Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
     ];
